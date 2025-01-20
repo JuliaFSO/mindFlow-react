@@ -5,6 +5,7 @@ import Features from "./components/Features.jsx";
 import Contact from "./components/Contact.jsx";
 import Footer from "./components/Footer.jsx";
 import './App.css'
+import './styles/main.css'
 
 function App() {
   return (

@@ -1,4 +1,3 @@
-@import url('styles/main.css');
 @import url('styles/header.css');
 @import url('styles/headline.css');
 @import url('styles/about_us.css');
@@ -33,4 +32,22 @@ p {
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 1rem;
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2.0rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    text-align: justify;
+  }
 }
