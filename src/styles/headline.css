@@ -1,0 +1,27 @@
+/* Headline Styles */
+.headline-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline-text {
+  flex: 1 1 auto;
+  max-width: 750px;
+  padding: 1rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .headline-container {
+    flex-direction: column;
+  }
+
+  .headline-text,
+  .headline-image {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
